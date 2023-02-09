@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset */
+
+/* header */
+.container {
+    max-width: 1188px;
+    width: 90%;
+    margin: 0px auto;
+}
+header {
+    border-bottom: 1px solid black;
+}
+header li {
+    display: inline-block;
+}
+.logo {
+    margin: 25px 270px 25px 0px;
+    font-family: 'Malayalam MN';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 37px;
+    color: black;
+}
+
+.li {
+    margin: 30px 52px 30px 0px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+}
+.profile {
+    margin-left: 311px;
+    margin-top: 30px;
+}
+.profile img {
+    width: 30px;
+    height: 30px;
+}
+
+/* main index.html */
+
+.home h1 {
+    text-align: center;
+    margin: 72px 0px 65px 0px;
+    font-family: 'FiraGO';
+    font-size: 24px;
+    line-height: 29px;
+}
+.products{
+    margin: 0px 0px 115px 21px;
+}
+.content {
+    display: inline-block;
+}
+.box {
+    border: 1px solid black;
+    width: 333px;
+    height: 487px;
+    margin-left: 105px;
+}
+.box img {
+    padding: 11px 0px 0px 11px;
+}
+.box h5 {
+    margin: 20px 0 17px 26px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.box p {
+    margin: 0 24px 21px 26px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+button {
+    margin-left: 73.25%;
+    margin-top: 23px;
+    width: 118px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: white;
+}
+.some-part-list {
+    margin-left: 131px;
+}
+.some-part-list ul {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 215%;
+}
+.some-part-list .middle {
+    margin-left: 245px;
+    margin-right: 235px;
+}
+.home a {
+    margin: 39px 67px 61px 1078px;
+}
+
+/* main contactus.html */
+
+.contactus h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.03em;
+    line-height: 47px;
+    color: #7D0000;
+    margin-top: 147px;
+    margin-bottom: 119px;
+}
+.contactus div {
+    display: inline-block;
+    line-height: 32px;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    margin: 0px 280px;
+}
+.contactus iframe {
+    text-align: center;
+    margin: 144px 0px 193px 266px;
+    width: 900px;
+    height: 425px;
+}
+
+/* main aboutus.html */
+
+.aboutus h1 {
+    text-align: center;
+    line-height: 32px;
+    font-size: 40px;
+    letter-spacing: 0.03em;
+    margin-top: 134px;
+    margin-bottom: 115px;
+    color: #7D0000;
+    font-weight: bold;
+}
+.aboutus .content {
+    margin: 0px 105px 237px 116px;
+    display: inline-block;
+}
+.aboutus .content div {
+    width: 500px;
+}
+.aboutus .content .adress {
+    margin-left: 60%;
+    margin-top: 89px;
+}
+.aboutus img {
+    margin-left: 100%;
+    margin-top: -175px;
+}
+
+/* main blog.html */
+
+.blog h1 {
+    margin: 47px 0px 94px 94px;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+}
+.blog-nav  li {
+    display: inline-block;
+    margin-left: 65px;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    font-weight: 600;
+}
+.blog-nav {
+    text-align: center;
+}
+
+.blog img {
+    width: 308px;
+    height: 228px;
+    margin-left: 94px;
+    margin-top: 68px;
+    margin-right: 22px;
+    margin-bottom: 122px;
+}   
+.content-one div {
+    display: inline-block;
+    width: 918px;
+    height: 228px;
+    margin-top: px;
+    background-color: #E5EBE5;
+    border-radius: 0px 14px 14px 0px;
+}
+ .content-one h2 {
+    margin-top: 38px;
+    margin-left: 36px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold
+}
+ .content-one p {
+    margin: 32px 32px 0px 36px;
+ }
+ .content-one button {
+    margin-top: 14px;
+    margin-left: 86.8%;
+    width: 174px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+/* main profile.html */
+
+.profile-info   {
+    display: inline-block;
+}
+.personal {
+    display: inline-block;
+    margin: 256px 1000px 96px 206px;
+    width: 350px;
+}
+.personal div {
+    margin-left: 300px;
+}
